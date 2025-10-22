@@ -12,7 +12,7 @@ function App() {
 
   return (
     <div style={{ padding: "2rem", fontFamily: "sans-serif" }}>
-      <h1>🚀 React + Node + MongoDB Atlas</h1>
+      <h1 className="text-blue-600">🚀 React + Node + MongoDB Atlas</h1>
       <p>{message || "Loading..."}</p>
     </div>
   );
